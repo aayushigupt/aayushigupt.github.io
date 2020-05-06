@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.body
+{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    
+}
+.offset:before
+{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*---Navigation---*/
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0,0,0,0.6)!important;
+
+}
+.navbar-nav li
+{
+    padding-right: .7rem;
+
+}
+.navbar-dark, .navbar-nav , .navbar-link
+{
+    color: rgb(65, 25, 25);
+    padding-top: .8rem;
+}
+.navbar-link:hover{
+    color: #040706;   
+}
+.navbar-dark, .navbar-nav , .nav-link.active,
+.navbar-dark, .navbar-nav , .nav-link:hover
+{
+    color: #10fad7!important;
+}
+/*---Landing Page---*/
+
+
+#home{
+    padding: 220px 0 220px;
+    background-image: url("images/christopher-gower-vjMgqUkS8q8-unsplash.jpg");
+    background-size: cover;
+}
+.caption
+{
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+    color:black;
+    
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-shadow: .1rem, .1rem, .8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2.1rem;
+    letter-spacing: 0.04rem;
+    padding-bottom:1.6rem;
+}
+.btn-lg
+{
+    border-width: large;
+    border-radius: 0;
+    padding: .3rem 1.3rem;
+    font-size: 1.1rem;
+}
+.btn-lg:hover{
+    background-color: #6f7174;
+}
+
+.narrow
+{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.narrow h1
+{
+    font-size: 2.4rem;
+    font-family: 'Lato', sans-serif;
+}
+.about p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+.jumbotron
+{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    padding-top: 50px;
+}
+
+h3.heading
+{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline
+{
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 4rem;
+
+}
+.project svg.svg-inline--fa
+{
+    color: #1ebba3;
+}
+.project h3{
+    padding-top: .9rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.project p{
+    font-size: 1.1rem;
+}
+.fixed-background
+{
+    background-image: url(images/picture.jpeg);
+    z-index: -1;
+    background-attachment: fixed;
+    padding: 7rem 2rem;
+}
+.dark{
+    padding: 7rem 2rem;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.fixed-background h3{
+    margin-bottom: 2rem;
+}
+.fixed-background p
+{
+    margin-top: 1.5rem;
+}
+
+.contact img{
+    width: 50%;
+    border-radius: 50%;
+    height: 50%;
+    margin: 1.5rem 0;
+}
+footer
+{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+footer a{
+    color: white;
+}
+footer svg.svg-inline--fa
+{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+    color: #1ebba3!important;
+}
+footer p{
+    font-size: 1rem;
+}
+hr.socket
+{
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;   
+}
+.skills
+{
+    list-style: none;
+
+}
+.skills li{
+    margin: 20px 0;
+    padding-right: 10px;
+    padding-bottom: 2px;
+
+}
+.bar{
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    background: #353b48;
+    display: block;
+    height: 6px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #023f30b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background:#189c88;
+}
+.html
+{
+    width:90%;
+    animation: html 3s;
+}
+.css
+{
+    width:85%;
+    animation: css 3s;
+}
+
+.bootstrap
+{
+    width:70%;
+    animation: bootstrap 3s;
+}
+.javascript
+{
+    width:60%;
+    animation: javascript 3s;
+}
+.php
+{
+    width: 70%;
+    animation: php 3s;
+}
+.flutter
+{
+    width:76%;
+    animation: flutter 3s;
+}
+.django
+{
+    width:70%;
+    animation: django 3s;
+}
+
+.dart
+{
+    width:79%;
+    animation: dart  3s;
+}
+.firebase
+{
+    width:60%;
+    animation: firebase 3s;
+}
+.sql
+{
+    width: 55%;
+    animation: sql 3s;
+}
+.c
+{
+    width: 60%;
+    animation: c 3s;
+}
+.dsa
+{
+    width: 50%;
+    animation: dsa 3s;
+}
+@keyframes html{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 85%;
+    }
+}
+@keyframes bootstrap{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 75%;
+    }
+}
+@keyframes javascript{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes php{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes flutter{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes django{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes dart{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes firebase{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes sql{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 55%;
+    }
+}
+@keyframes c{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes dsa{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+
