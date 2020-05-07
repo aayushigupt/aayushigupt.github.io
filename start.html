@@ -6,12 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="start.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
 
@@ -35,6 +39,9 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#achievement">Achievement</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
 
@@ -42,14 +49,20 @@
         </div>
     </nav>
     <!-- End Navigation -->
-    <div id="home">
+    <div id="home" class="img-responsive">
         <div class="landing col12">
             <div class="home-wrap">
                 <div class="home-inner">
                     <div class="caption text-center">
-                        <h1>Hello</h1>
-                        <h3>This is Aayushi.</h3>
+                        <h1>Hola!</h1>
+                        <h3>I'm Aayushi</h3>
                         <a class="btn btn-outline-dark btn-lg" type="button">My Resume</a>
+                    </div>
+
+                    <div class="scrolldown text-center ">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -62,12 +75,14 @@
     <!-- Start About Section -->
     <div id="about" class="offset">
         <div class="about col-12 narrow text-center">
-            <h3 class="heading">About Me</h3>
-            <div class="heading-underline"></div>
-            <p class="lead">Heya! This is Aayushi a full stack mobile and web app developer making beautiful UI's . I am
-                a
-                tech enthusiast like to work on various projects.Also worked on Cloud and Ubuntu. Involvement in
-                Developer Student Club and GirlScript Pune Chapter.</p>
+            <h3 class="heading" data-aos="fade-up" data-aos-duration="3000">About Me</h3>
+
+            <div class="heading-underline" data-aos="fade-up" data-aos-duration="3000"></div>
+            <img src="images/main.jpeg" class="img-responsive" data-aos="zoom-in" data-aos-duration="700">
+            <p class="lead" data-aos="zoom-in" data-aos-duration="700">Hello,my name is Aayushi Gupta.I am a Full Stack
+                Web and Mobile App Developer. UI/UX Designer with a passion for designing beautiful and functional user
+                experiences. A Developer
+                who focuses on writing clean, elegant and efficent code. </p>
         </div>
     </div>
     <!-- End About Section -->
@@ -77,31 +92,53 @@
         <div class="jumbotron">
             <div class="narrow">
                 <div class="col-12 text-center">
-                    <h3 class="heading text-center">Projects</h3>
-                    <div class="heading-underline"></div>
+                    <h3 class="heading text-center" data-aos="fade-up" data-aos-duration="3000">Projects</h3>
+                    <div class="heading-underline" data-aos="fade-up" data-aos-duration="3000"></div>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <div class="project">
-                            <i class="fas fa-baby-carriage fa-4x" data-fa-transform="shrink-5"
-                                style="font-size:50px"></i>
-                            <h3>Sweep</h3>
-                            <p>Following the rule of clean India sweep application is based upon that.Those areas which
+                            <i class="fas fa-baby-carriage fa-4x" data-fa-transform="shrink-5" style="font-size:50px"
+                                data-aos="flip-left" data-aos-duration="2000"></i>
+                            <h3 data-aos="flip-left" data-aos-duration="700" data-aos-delay="1000">Sweep</h3>
+                            <p data-aos="flip-left" data-aos-duration="700" data-aos-delay="1100">Following the rule of
+                                clean India sweep application is based upon that.Those areas which
                                 are not in reach of government and seen by public in everyday life. We will be able to
                                 tell
-                                government through this app.
+                                government through this app about the problems.
                             </p>
+                            <a href="https://github.com/aayushigupt/Cooper" target="_blank"><i
+                                class="fa fa-github" style="font-size:20px; padding-right: 8px; color:black" ></i></a>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="project">
-                            <i class="fas fa-desktop fa-4x" data-fa-transform="shrink-5" style="font-size:50px"></i>
-                            <h3>Folio</h3>
-                            <p>A Mobile App which would empower website owners to easily host their website owners to
-                                easily host their websites and manage it
-                                The users would be able to easy showcase their knowledge,projects, experiences and blog
-                                on a website withthe help of mobile app.
+                        <div class="project" data-aos="fade-up" data-aos-duration="3000">
+                            <i class="fas fa-desktop fa-4x" data-fa-transform="shrink-5" style="font-size:50px"
+                                data-aos="zoom-in" data-aos-duration="2000"></i>
+                            <h3 data-aos="zoom-in" data-aos-duration="700" data-aos-delay="1000">Folio</h3>
+                            <p data-aos="zoom-in" data-aos-duration="700" data-aos-delay="1100">A Mobile App which would
+                                empower
+                                website owners to easily host their websites and manage it.
+                                The users would be able to easy showcase their knowledge, projects , experiences and
+                                blog
+                                on a website with the help of mobile app.
                             </p>
+                            <a href="https://github.com/aayushigupt/folio" target="_blank"><i
+                                class="fa fa-github" style="font-size:20px; padding-right: 8px; color: black"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project" data-aos="flip-right" data-aos-duration="3000">
+                            <i class="fas fa-paste fa-4x" data-fa-transform="shrink-5" style="font-size:50px"
+                                data-aos="zoom-in" data-aos-duration="2000"></i>
+                            <h3 data-aos="flip-right" data-aos-duration="700" data-aos-delay="1000">Scan-Q</h3>
+                            <p data-aos="flip-right" data-aos-duration="700" data-aos-delay="1100">
+                                A digital platform where both teachers and students will register themselves
+                                to maintain attendence. The main focus was on eliminating the proxies , maintaining the
+                                records , to remain ecofriendly and letting students to know about their attendence.
+                            </p>
+                            <a href="https://github.com/aayushigupt/Scan-Q" target="_blank"><i
+                                class="fa fa-github" style="font-size:20px; padding-right: 8px; color: black"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,38 +148,52 @@
     <!-- End Project Section -->
     <!-- Start Portfolio Section -->
     <div id="portfolio">
-    <div class="portfolio">
-        <div class="fixed-background">
-            <div class="row dark text-center">
-                <div class="col-12 text-center">
-                    <h3 class="heading">Portfolio</h3>
-                    <div class="heading-underline"></div>
+        <div class="portfolio">
+            <div class="fixed-background img-responsive">
+                <div class="row dark text-center">
+                    <div class="col-12 text-center">
+                        <h3 class="heading" data-aos="fade-up" data-aos-duration="700">Portfolio</h3>
+                        <div class="heading-underline" data-aos="fade-up" data-aos-duration="700"></div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h4 data-aos="zoom-in-up" data-aos-duration="700">App Dev Lead</h4>
+                        <p class="lead" data-aos="zoom-in-up" data-aos-duration="700" data-aos-delay="1000">Appointed as
+                            App Dev Lead of Developer Student Club in the year 2020.
+                            <br>DSC is a Google Developers Program for students, designed to help them build their web ,
+                            mobile development skills and knowledge and also various other platforms
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h4 data-aos="zoom-in-up" data-aos-duration="700">Campus Representative</h4>
+                        <p class="lead" data-aos="zoom-in-up" data-aos-duration="700" data-aos-delay="1000">Appointed as
+                            Campus Representative of GirlScript Pune Chapter in the year 2019.
+                            <br>GirlScript is a non-profit project to support women in technology.
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h4 data-aos="zoom-in-up" data-aos-duration="700">Core Member</h4>
+                        <p class="lead" data-aos="zoom-in-up" data-aos-duration="700" data-aos-delay="1000">Appointed as
+                            Core Member of Developer Student Club in the year 2019-2020.
+                            DSC is a Google Developers Program for students, designed to help them build their web ,
+                            mobile development skills and knowledge and also various other platforms
+
+                        </p>
+
+                    </div>
                 </div>
 
-                <div class="col-md-4 text-center">
-                    <h4>App Dev Lead</h4>
-                    <p class="lead">Appointed as App Dev Lead of Developer Student Club in the year 2020.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h4>Campus Representative</h4>
-                    <p class="lead">Appointed as App Dev Lead of Developer Student Club in the year 2020.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h4>Core Member</h4>
-                    <p class="lead">Appointed as App Dev Lead of Developer Student Club in the year 2020.</p>
+            </div>
+
+            <div class="fixed-wrap">
+                <div class="fixed-background">
+
                 </div>
             </div>
 
         </div>
-
-        <div class="fixed-wrap">
-            <div class="fixed-background">
-
-            </div>
-        </div>
-
     </div>
-</div>
     <!---fixed background-->
     </div>
     <!-- End Portfolio Section -->
@@ -151,8 +202,8 @@
         <div class="jumbotron">
             <div class="narrow">
                 <div class="col-12 text-center">
-                    <h3 class="heading">Skills</h3>
-                    <h3 class="heading-underline"></h3>
+                    <h3 class="heading" data-aos="fade-up" data-aos-duration="700">Skills</h3>
+                    <h3 class="heading-underline" data-aos="fade-up" data-aos-duration="700"></h3>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -178,6 +229,10 @@
                             <li>
                                 <h4>JavaScript</h4><span class="bar"><span class="javascript"></span></span>
                             </li>
+                            <li>
+                                    <h4>Java</h4><span class="bar"><span class="java"></span></span>
+                                </li>
+    
 
 
 
@@ -217,6 +272,84 @@
             </div>
         </div>
         <!-- End Skills Section -->
+        <!-- Start Achievement Section -->
+        <div id="achievement">
+            <div class="achieve">
+                <div class="col-12 text-center">
+                    <h3 class="heading" data-aos="fade-up" data-aos-duration="700">Achievements</h3>
+                    <h3 class="heading-underline" data-aos="fade-up" data-aos-duration="700"></h3>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="card-body" class="img-responsive">
+                                    <img src="images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+                                        class="card-img-top img-fluid">
+                                    <h3 class="text-center">Hackathon</h3>
+                                    <p class="text-center">Stood 1st in College Hackathon. We team of 6 has participated
+                                        in hackathon and came up with the
+                                        Idea which was based upon eliminating the proxies, maintaining the records and
+                                        letting students to know about their attendence.
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="card-body" class="img-responsive">
+                                    <img src="images/hacktoberfest.jpg" class="card-img-top img-fluid">
+                                    <h3 class="text-center">Hacktoberfest</h3>
+                                    <p class="text-center">
+                                        Participated in Hacktoberfest 2019, Was one of the selected 50,000 people
+                                        globally to get
+                                        goodies from Github , Digital Ocean and Twillo.
+                                        <br>
+                                        <br>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="card-body" class="img-responsive">
+                                    <img src="images/gcp.jpg" class="card-img-top img-fluid">
+                                    <h3 class="text-center">Google Cloud Platform</h3>
+                                    <p class="text-center" style="padding-bottom:20px"> Recieved Google Goodies for
+                                        completing the quests on Google Cloud.
+                                        Google Cloud Platform , offered by Google , is a suite of cloud computing
+                                        services that runs
+                                        on the same infrastructure that Google uses internally.
+                                        <br>
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="card-body" class="img-responsive">
+                                    <img src="images/headway-5QgIuuBxKwM-unsplash.jpg" class="card-img-top img-fluid">
+                                    <h3 class="text-center">Participation</h3>
+                                    <p class="text-center" style="padding-bottom:50px">
+                                        Participated in various hackathon like Build for Digital India , Smart India
+                                        Hackathon , Devfolio HackOn etc. Also was selected as a Cloud Facilitator in GCP
+                                        Crash Course.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Achievement Section -->
 
         <div id="contact">
             <footer>
@@ -228,12 +361,18 @@
                             </p>
                             <strong>Contact Info</strong>
                             <p>aayushigupta108@gmail.com</p>
-                            <a href="" target="_blank"><i class="fa fa-facebook" style="font-size:20px"></i></a>
-                            <a href="" target="_blank"><i class="fa fa-instagram" style="font-size:20px"></i></a>
-                            <a href="" target="_blank"><i class="fa fa-github" style="font-size:20px"></i></a>
-                            <a href="" target="_blank"><i class="fa fa-twitter" style="font-size:20px"></i></a>
-                            <a href="" target="_blank"><i class="fa fa-spotify" style="font-size:20px"></i></a>
-                            <a href="" target="_blank"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+                            <a href="https://www.facebook.com/aayushi.gupta.543908?ref=bookmarks" target="_blank"><i
+                                    class="fa fa-facebook" style="font-size:20px; padding-right: 8px;color:white"></i></a>
+                            <a href="https://www.instagram.com/aayushigupta108/?hl=en" target="_blank"><i
+                                    class="fa fa-instagram" style="font-size:20px;padding-right:8px; color:white"></i></a>
+                            <a href="https://github.com/aayushigupt" target="_blank"><i class="fa fa-github"
+                                    style="font-size:20px; padding-right: 8px;color:white"></i></a>
+                            <a href="https://twitter.com/Aayushi23166089" target="_blank"><i class="fa fa-twitter"
+                                    style="font-size:20px; padding-right: 8px;color:white"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-spotify"
+                                    style="font-size:20px; padding-right: 8px;color:white"></i></a>
+                            <a href="https://www.linkedin.com/in/aayushi-gupta-07aa79169/" target="_blank"><i
+                                    class="fa fa-linkedin" style="font-size:20px; padding-right: 8px;color:white"></i></a>
                         </div>
                         <hr class="socket">
                         &copy; Aayushi Gupta
@@ -257,6 +396,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

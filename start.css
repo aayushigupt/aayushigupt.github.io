@@ -60,26 +60,93 @@
     
 }
 .caption h1{
-    font-size: 3.8rem;
+    
+    font-size: 3.7rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
     text-shadow: .1rem, .1rem, .8rem black;
     padding-bottom: 1rem;
 }
 .caption h3{
-    font-size: 2.1rem;
+   
+    font-size: 2rem;
     letter-spacing: 0.04rem;
-    padding-bottom:1.6rem;
+    padding-bottom:1.8rem;
+    
+  
+   
 }
+
 .btn-lg
 {
     border-width: large;
+    
     border-radius: 0;
     padding: .3rem 1.3rem;
     font-size: 1.1rem;
 }
 .btn-lg:hover{
     background-color: #6f7174;
+    
+}
+.scrolldown
+{
+    position: absolute;
+    bottom: -30px;
+    
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    
+    transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+.scrolldown span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height:100%;
+    border-bottom: 4px solid #1ebba3;
+    border-right: 4px solid #1ebba3;
+    border-radius: 1px;
+    animation: animate 3s linear infinite;
+    opacity: 0;
+    
+   
+
+}
+.scrolldown span:nth-child(1)
+{
+    transform: translate(-15px, -15px);
+   
+    
+}
+.scrolldown span:nth-child(2)
+{
+    transform: translate(0px, 0px);
+}
+
+@keyframes animate
+{
+    0%
+    {
+        top:-5px;
+        left: -5px;
+        opacity: 0;
+    }
+    25%
+    {
+        top:0px;
+        left: 0px;
+        opacity: 1;
+    }
+    100%
+    {
+        top:5px;
+        left: 5px;
+        opacity: 0;
+    }
 }
 
 .narrow
@@ -94,7 +161,7 @@
     font-size: 2.4rem;
     font-family: 'Lato', sans-serif;
 }
-.about p{
+.about p {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     letter-spacing: 0.1rem;
@@ -137,10 +204,11 @@ h3.heading
 }
 .fixed-background
 {
-    background-image: url(images/picture.jpeg);
+    background-image: url(images/apple-computer-desk-electronics-374857.jpg);
     z-index: -1;
     background-attachment: fixed;
     padding: 7rem 2rem;
+    background-size:cover;
 }
 .dark{
     padding: 7rem 2rem;
@@ -153,6 +221,14 @@ h3.heading
 .fixed-background p
 {
     margin-top: 1.5rem;
+}
+.about img{
+    width: 30%;
+    border-radius: 50%;
+    border:1px solid #fff;
+    height: 30%;
+    margin: 1.5rem 0;
+    padding-bottom: 20px;
 }
 
 .contact img{
@@ -199,6 +275,41 @@ hr.socket
     padding-bottom: 2px;
 
 }
+.contact p{
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.card-body h3
+{
+    font-size: 24px;
+    padding-top: 20px;
+    
+}
+.card-body h5{
+    font-size: 18px;
+}
+.card
+{
+    box-shadow: 5px 5px 15px #1ebba3;
+    
+}
+.card:hover{
+    background: #1ebba3;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #353b48;
+}
+.container
+{
+    padding-bottom: 20px;
+}
+.achieve
+{
+    padding-top: 5rem;
+}
+
+
 .bar{
     font-family: 'Lato', sans-serif;
     width: 400px;
@@ -276,6 +387,21 @@ hr.socket
 {
     width: 50%;
     animation: dsa 3s;
+}
+.java
+{
+    width: 50%;
+    animation: java 3s;
+}
+@keyframes java{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 50%;
+    }
 }
 @keyframes html{
     0%
