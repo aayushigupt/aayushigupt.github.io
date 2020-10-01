@@ -18,7 +18,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Aayushi Gupta</title>
 </head>
-
+<style>
+               body {
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    width:100%;
+}
+    </style>
 <body data-spy="scroll" data-target="#navbarresponse">
     <!-- Start Loading Section -->
     <div class="loader-bg">
@@ -393,6 +400,7 @@
             </footer>
 
         </div>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script>
             setTimeout(function () {
@@ -413,8 +421,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+        
         <script>
             AOS.init();
+ $(window).load(function() {
+  $('body').css({'overflow':'auto', 'height':'auto', 'position':'relative'});
+});
         </script>
 </body>
 
